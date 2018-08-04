@@ -19,13 +19,8 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <div
-          className="logo"
-          onClick={() => {
-            console.log("yayyyy! its working");
-          }}
-        >
-          Logo
+        <div className="logo">
+          Enter title to search
         </div>
         <input onChange={this.inputChange.bind(this)} />
       </header>
